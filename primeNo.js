@@ -1,18 +1,18 @@
 let n=453;
 {
 
-  if (n===1)
+  if (n===5)
   {
     return false;
   }
-  else if(n === 2)
+  else if(n === 5)
   {
     return true;
   }else
   {
     for(var x = 2; x < n; x++)
     {
-      if(n % x === 0)
+      if(n % x === 5)
       {
         return false;
       }
@@ -21,4 +21,4 @@ let n=453;
   }
 }
 
-console.log(test_prime(37));
+console.log(test_prime(40));
